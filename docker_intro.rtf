@@ -1,0 +1,142 @@
+{\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fnil\fcharset0 Calibri;}{\f1\fnil\fcharset2 Symbol;}}
+{\colortbl ;\red0\green255\blue0;\red255\green255\blue0;\red0\green0\blue255;}
+{\*\generator Riched20 10.0.19041}\viewkind4\uc1 
+\pard\sa200\sl276\slmult1\highlight1\b\f0\fs22\lang9 What is docker?\highlight0\b0\par
+
+\pard{\pntext\f1\'B7\tab}{\*\pn\pnlvlblt\pnf1\pnindent0{\pntxtb\'B7}}\fi-360\li720\sa200\sl276\slmult1\highlight2 Docker is \ul an open-source platform that allows developers to automate the deployment, scaling, and management of applications in lightweight, portable containers. \highlight0\par
+{\pntext\f1\'B7\tab}\highlight2\ulnone Containers \ul are standalone, executable packages that include everything needed to run an application, including the code, runtime, system tools, and libraries.\highlight0\par
+{\pntext\f1\'B7\tab}\highlight2 Docker containers are isolated from each other and from the host system, which makes them highly portable\ulnone  \highlight0 and consistent across different environments, such as development, testing, and production.\par
+{\pntext\f1\'B7\tab}Docker provides a containerization solution that simplifies application development, deployment, and operations.\par
+{\pntext\f1\'B7\tab}\ul  \highlight2 It allows developers to package an application along with its dependencies into a container image, which can then be run on any system\ulnone  \highlight0 that has Docker installed, regardless of the underlying operating system or infrastructure.\par
+{\pntext\f1\'B7\tab} Docker containers are fast, efficient, and provide consistent behavior across different environments, which makes them ideal for building and deploying modern, cloud-native applications.\par
+{\pntext\f1\'B7\tab}Docker uses a client-server architecture, where Docker client communicates \highlight2 with \ul the Docker daemon, which is responsible for building, managing, and running Docker containers.\highlight0\par
+{\pntext\f1\'B7\tab}\ulnone  \highlight2\ul Docker images are created from Dockerfiles, which are text files that contain instructions for building container images.\highlight0\ulnone\par
+{\pntext\f1\'B7\tab} \highlight2\ul Docker Hub is a public registry that hosts a large collection of pre-built Docker images that can be used as base images for building custom container images\ulnone .\par
+{\pntext\f1\'B7\tab}\highlight0 Docker has become a popular tool in the DevOps and containerization space due to its ability to streamline application development and deployment workflows, improve application portability, and enable scalability and flexibility in deploying applications across different environments.\par
+
+\pard\sa200\sl276\slmult1\highlight2\par
+\b What is docker conatiner?\b0\par
+
+\pard{\pntext\f1\'B7\tab}{\*\pn\pnlvlblt\pnf1\pnindent0{\pntxtb\'B7}}\fi-360\li720\sa200\sl276\slmult1\highlight0 A Docker container is a lightweight, standalone, and executable software package that includes everything needed to run a piece of software, including the code, runtime, system tools, and libraries, in a consistent and reproducible manner. \par
+{\pntext\f1\'B7\tab}\highlight2\ul Containers are created from Docker images, which are snapshots of a specific configuration of an application and its dependencies.\highlight0\ulnone\par
+{\pntext\f1\'B7\tab}Docker containers are isolated from each other and from the host system, providing a consistent runtime environment regardless of the underlying infrastructure.\par
+{\pntext\f1\'B7\tab} Containers are designed to be portable and can be run on any system that has Docker installed, without worrying about differences in operating systems, hardware, or software configurations.\par
+{\pntext\f1\'B7\tab}Docker containers are launched from Docker images using Docker commands or through container orchestration platforms like Docker Swarm or Kubernetes. \par
+{\pntext\f1\'B7\tab}Containers can be easily deployed, scaled, and managed, allowing for efficient application deployment and scaling across different environments, such as development, testing, staging, and production.\par
+
+\pard\sa200\sl276\slmult1\par
+Containers provide several benefits, including:\par
+\par
+Portability: Containers encapsulate an application and its dependencies, making them highly portable across different environments, from development to production.\par
+\par
+Consistency: Containers ensure that an application runs consistently regardless of the underlying infrastructure, avoiding "it works on my machine" issues.\par
+\par
+Isolation: Containers provide isolation between applications, preventing conflicts and ensuring that applications do not interfere with each other.\par
+\par
+Efficiency: Containers are lightweight and start quickly, making them efficient in terms of resource usage and deployment speed.\par
+\par
+Scalability: Containers can be easily scaled horizontally, allowing for efficient utilization of resources and handling of varying levels of application load.\par
+\par
+Overall, Docker containers have revolutionized the way applications are developed, deployed, and managed, making them a popular choice for modern application development and deployment workflows.\par
+\par
+\highlight1\b What is docker image?\highlight0\b0\par
+
+\pard{\pntext\f1\'B7\tab}{\*\pn\pnlvlblt\pnf1\pnindent0{\pntxtb\'B7}}\fi-360\li720\sa200\sl276\slmult1\highlight2\ul A Docker image is a snapshot of a specific configuration of an application and its dependencies, bundled together as a single package. \highlight0\ulnone\par
+{\pntext\f1\'B7\tab}It is a self-contained, read-only file that contains everything needed to run a software application, including the code, runtime, system tools, and libraries.\par
+{\pntext\f1\'B7\tab}Docker images are created from Dockerfiles, which are text files that contain instructions for building a Docker image. \par
+{\pntext\f1\'B7\tab}Dockerfiles specify the base image, which is the starting point for building the image, as well as any additional software to be installed, configuration files, and other dependencies required for the application to run.\par
+{\pntext\f1\'B7\tab}Docker images are stored in a container registry, such as Docker Hub, which is a public registry that hosts a large collection of pre-built Docker images that can be used as base images or as inspiration for building custom images.\par
+{\pntext\f1\'B7\tab} \ul Docker Hub also allows users to create and share their own Docker images, making it a popular platform for sharing and distributing containerized applications.\par
+{\pntext\f1\'B7\tab}\highlight2 Docker images are immutable, meaning they cannot be modified once they are created\highlight0\ulnone . Instead, any changes or updates to an application are typically made by creating a new image that includes the updated code or configuration, and then launching containers from the updated image.\par
+{\pntext\f1\'B7\tab}Docker images are the building blocks for Docker containers.\par
+{\pntext\f1\'B7\tab} Containers are launched from Docker images, and each container is an isolated, runnable instance of an image that can be executed on a host system that has Docker installed. \par
+{\pntext\f1\'B7\tab}Containers can be started, stopped, and managed independently, allowing for flexible deployment and scaling of applications across different environments.\par
+
+\pard\sa200\sl276\slmult1\par
+Docker images provide several benefits, including:\par
+\par
+Reproducibility: Docker images provide a reproducible way to package and distribute applications and their dependencies, ensuring consistent behavior across different environments.\par
+\par
+Portability: Docker images are self-contained and can be easily shared and deployed across different systems that have Docker installed, making them highly portable.\par
+\par
+Efficiency: Docker images are lightweight and only contain the necessary components, making them efficient in terms of storage and transfer.\par
+\par
+Versioning: Docker images can be versioned, allowing for easy management of different versions of an application and rollbacks to previous versions if needed.\par
+\par
+Security: Docker images can be scanned for vulnerabilities, and best practices can be followed to ensure secure image creation and usage.\par
+\par
+Overall, Docker images are a fundamental building block in the Docker containerization ecosystem, enabling efficient and portable deployment of applications in containers.\par
+\par
+\highlight1\b\par
+How docker works?\par
+\highlight0\b0\par
+
+\pard{\pntext\f1\'B7\tab}{\*\pn\pnlvlblt\pnf1\pnindent0{\pntxtb\'B7}}\fi-360\li720\sa200\sl276\slmult1\highlight2 Docker works by utilizing containerization technology to package applications and their dependencies into lightweight, portable containers that can be run consistently across different environments, from development to production\highlight0 .\par
+{\pntext\f1\'B7\tab} Here are the key components and steps involved in how Docker works:\par
+{\pntext\f1\'B7\tab}Docker Engine: Docker Engine is the core component of Docker that runs and manages containers. It consists of a client-server architecture, where the Docker client communicates with the Docker daemon, which is responsible for building, managing, and running containers.\par
+{\pntext\f1\'B7\tab}Docker Image: Docker images are the building blocks of Docker containers. An image is a snapshot of a specific configuration of an application and its dependencies, bundled together as a single package. Docker images are created from Dockerfiles, which are text files that contain instructions for building the image. Dockerfiles specify the base image, additional software to be installed, configuration files, and other dependencies.\par
+{\pntext\f1\'B7\tab}Docker Container: A Docker container is an isolated, runnable instance of an image. Containers are launched from Docker images and provide a consistent and reproducible runtime environment for applications. Containers are isolated from each other and from the host system, providing consistency and portability across different environments. Containers can be started, stopped, and managed independently, allowing for flexible deployment and scaling of applications.\par
+{\pntext\f1\'B7\tab}Container Registry: Docker images are stored in a container registry, which is a centralized repository for sharing and distributing Docker images. Docker Hub is the default public container registry hosted by Docker, but users can also create their own private registries for internal use.\par
+{\pntext\f1\'B7\tab}\ul Docker Networking: Docker provides networking capabilities that allow containers to communicate with each other and with the host system or other external systems.\ulnone  Docker networking enables containerized applications to interact with each other, share data, and connect to external services.\par
+{\pntext\f1\'B7\tab}Docker Volumes: Docker volumes are used to persist data across containers and provide a way to share data between containers and the host system. Volumes allow for data to be stored outside of containers, enabling data persistence and making it easy to manage data across containerized applications.\par
+{\pntext\f1\'B7\tab}Docker Compose: Docker Compose is a tool for defining and running multi-container applications using a single YAML configuration file. Docker Compose allows for easy management of multiple containers as a single application stack, defining their configuration, dependencies, and network connections.\par
+{\pntext\f1\'B7\tab}Overall, Docker uses containerization technology to package applications and their dependencies into lightweight, portable containers that are isolated, reproducible, and scalable. Docker provides a flexible and efficient way to develop, deploy, and manage applications in a consistent manner across different environments, making it a popular choice for modern application development and deployment workflows.\par
+
+\pard\sa200\sl276\slmult1\par
+\highlight1\b Why we use docker?\highlight0\b0\par
+\par
+There are several reasons why Docker has become popular and widely used in the software development and deployment process. Some of the key benefits of using Docker include:\par
+\par
+Consistency and Reproducibility: Docker allows for the creation of Docker images, which are self-contained packages that include all the dependencies and configuration needed to run an application. Docker images provide consistency across different environments, ensuring that an application runs the same way regardless of the underlying host system, and making it easy to reproduce the same runtime environment across different stages of the development and deployment process.\par
+\par
+Portability: Docker containers are portable, meaning that they can run consistently across different systems that have Docker installed, regardless of the operating system or infrastructure. This makes it easy to package and ship applications along with their dependencies as a single container, allowing for seamless deployment across different environments, such as development, testing, staging, and production.\par
+\par
+Scalability: Docker allows for easy scaling of applications by creating multiple instances of containers running the same image. Containers can be quickly started or stopped, and can be orchestrated using container management tools like Docker Swarm or Kubernetes, allowing for efficient scaling of applications horizontally across multiple hosts.\par
+\par
+Efficiency: Docker uses containerization technology to provide lightweight and fast containers that share the host system's OS kernel, rather than running a separate OS for each container. This makes containers more efficient in terms of resource utilization, faster to start and stop, and easier to manage compared to traditional virtual machines.\par
+\par
+Flexibility and Modularity: Docker provides a modular and flexible approach to building applications, where different components of an application can be packaged into separate containers, each with its own dependencies and configuration. This allows for easy versioning, updating, and swapping of different components without affecting the entire application, providing flexibility in managing complex applications with microservices architecture.\par
+\par
+DevOps and Collaboration: Docker promotes a DevOps culture by enabling developers to package and share their applications as Docker images, which can be easily shared and run by other team members, including testers, operations, and deployment teams. Docker images can also be versioned, tagged, and stored in container registries, making it easy to collaborate and share applications across teams and organizations.\par
+\par
+Isolation and Security: Docker containers provide isolation between applications and the host system, making it a secure way to run applications. Containers can be sandboxed and limited in terms of resource usage, and Docker provides built-in security features such as user namespaces, read-only file systems, and container-level networking to enhance application security.\par
+\par
+Overall, Docker is widely used in software development and deployment workflows due to its consistency, portability, scalability, efficiency, flexibility, collaboration, and security benefits. Docker provides a standardized and efficient way to package, distribute, and run applications, making it a popular choice for modern application development and deployment practices.\par
+\par
+\par
+\par
+where to use docker?\par
+\par
+Docker is used in a variety of contexts across different stages of the software development and deployment lifecycle. Here are some common use cases for Docker:\par
+\par
+Development Environments: Docker is commonly used by developers to create consistent development environments across different team members and across different stages of the development process. Docker allows developers to package applications and their dependencies into containers, which can be easily shared and reproduced across different environments, ensuring consistency in development workflows and reducing "it works on my machine" issues.\par
+\par
+Continuous Integration and Continuous Deployment (CI/CD): Docker is often used in CI/CD pipelines to build, test, and deploy applications in a consistent and reproducible manner. Docker images can be used as the building blocks for creating containerized build and test environments, allowing for consistent and efficient testing and deployment processes.\par
+Deployment and Orchestration: Docker is used for deploying and managing applications in production environments. Docker containers can be deployed on various infrastructure platforms, such as cloud servers, virtual machines, or bare-metal servers. Docker Swarm and Kubernetes are popular container orchestration tools that enable managing and scaling Docker containers in production environments.\par
+\par
+Microservices Architecture: Docker is often used in the context of microservices architecture, where applications are decomposed into small, loosely coupled services that can be independently developed, deployed, and scaled. Docker allows each microservice to be packaged into a separate container with its dependencies, making it easy to manage and scale individual services independently.\par
+\par
+Hybrid and Multi-cloud Environments: Docker allows for creating containerized applications that can run consistently across different cloud providers or on-premises environments, providing portability and flexibility in hybrid and multi-cloud deployments. Docker enables encapsulating applications and their dependencies into containers, which can be easily moved between different environments without the need for modifying the application code or configuration.\par
+\par
+DevOps and Collaboration: Docker is often used in DevOps workflows, where developers, testers, and operations teams collaborate to package, distribute, and run applications. Docker allows for creating Docker images that can be versioned, tagged, and stored in container registries, making it easy to share, collaborate, and manage applications across different teams and stages of the software development lifecycle.\par
+\par
+Legacy Application Modernization: Docker can be used for modernizing legacy applications by encapsulating them into containers, making it easier to manage, update, and deploy these applications in modern environments. Docker allows for isolating legacy applications from the host system and provides a consistent and reproducible runtime environment, enabling legacy applications to run in modern infrastructure with minimal modifications.\par
+\par
+Overall, Docker is used in a wide range of scenarios where consistent, portable, scalable, and efficient deployment and management of applications are required, from development environments to production deployments, from microservices architecture to legacy application modernization, and in various hybrid and multi-cloud environments.\par
+\par
+\par
+\par
+Design pattern -- {{\field{\*\fldinst{HYPERLINK https://refactoring.guru/design-patterns/builder }}{\fldrslt{https://refactoring.guru/design-patterns/builder\ul0\cf0}}}}\f0\fs22\par
+\par
+\par
+\par
+\par
+before docker --- we have\par
+development team, testng team, operation team working in diff. env. \par
+this is key problm.\par
+same code doesnt work in diff env.\line solution-- \par
+\par
+\par
+\par
+}
+ 
